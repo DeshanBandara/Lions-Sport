@@ -3,9 +3,9 @@
     <div>
         <p id="pid">This is just for testing</p>
         <script>
-            document.getElementById('pid').onclick = function(){
-                alert('Clicked the paragraph');
-            }
+            $('#pid').click(function(){
+                alert('Clicked the paragraph!');
+            });
         </script>
     </div>
     
