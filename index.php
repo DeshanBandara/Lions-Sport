@@ -1,8 +1,12 @@
 <?php include('./navbar.php') ?>
 
     <div>
-        <h3> welcome</h3>
-        <h1>lions sports</h1>
+        <p id="pid">This is just for testing</p>
+        <script>
+            document.getElementById('pid').onclick = function(){
+                alert('Clicked the paragraph');
+            }
+        </script>
     </div>
     
 <?php include('./footer.php') ?>
